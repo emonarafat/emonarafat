@@ -5,7 +5,7 @@ title: Home
 
 # Welcome
 
-I am **Yaseer Arafat**, a backend-focused software engineer building APIs, distributed systems, and cloud-native applications.
+I am **Yaseer Arafat**, AGM (Technical) at Othoba.com, .NET and cloud architect, and software engineering leader focused on scalable e-commerce and AI-driven solutions.
 
 I specialize in .NET and backend architecture, with practical delivery across cloud platforms, DevOps workflows, and production-grade systems.
 
@@ -20,6 +20,7 @@ I specialize in .NET and backend architecture, with practical delivery across cl
 - [GitHub Profile](https://github.com/emonarafat)
 - [LinkedIn](https://www.linkedin.com/in/yaseerarafat)
 - [Upwork](https://www.upwork.com/freelancers/~019243c0d9b337e319)
+- [Personal Site](https://yaseerarafat.com/)
 
 ## Featured Posts
 

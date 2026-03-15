@@ -5,17 +5,43 @@ title: About
 
 # About Yaseer Arafat
 
-I am a backend and cloud-focused software engineer with strong experience building scalable APIs, distributed systems, and production-ready applications.
+I am a backend and cloud-focused software engineer and technology leader with 14+ years of experience across enterprise platforms, e-commerce systems, and cloud-native products.
 
-My core strength is translating business requirements into clean architecture, reliable delivery, and maintainable code.
+I specialize in turning complex business requirements into scalable architecture, maintainable engineering systems, and reliable software delivery.
 
-## Professional Highlights
+## Current Position
+
+**Assistant General Manager (Technical), PRAN-RFL Group (Othoba.com)**
+
+- Leading platform architecture and technical strategy for Othoba.com.
+- Driving performance and scalability improvements in ASP.NET, SQL Server, and nopCommerce ecosystems.
+- Coordinating development, DevOps, and QA teams for dependable release operations.
+
+## Career Highlights
+
+- **Head of Technology, Metal Studio Private Limited (2023-2025)**
+- **Engineering Manager, Brainify Bangladesh (2023)**
+- **Application Developer, Multinational Financial Corp, New York (2020-2022)**
+- **Senior Software Development Engineer, Unik Experience Inc., Canada (2015-2018)**
+- **Chief Technology Officer, CasaVue, Vietnam (2016)**
+- **Lead Software Development Engineer, MidasZ Technologies, USA (2013-2015)**
+- **Senior Dotnet Developer, Satori Tech Solutions, USA (2013)**
+
+## Core Expertise
 
 - Backend engineering with C#, ASP.NET Core, .NET, Node.js, and SQL-based systems.
 - Cloud-native development and deployment workflows on Azure and AWS.
 - Event-driven architecture with messaging, CQRS patterns, and service integration.
-- Full-stack delivery support when needed using React, Next.js, Angular, and modern web tooling.
-- Practical DevOps execution with Docker, Kubernetes, and CI/CD automation.
+- E-commerce architecture with vendor, order, checkout, and logistics integration domains.
+- AI integration for product features and developer workflows.
+
+## Top Skills
+
+- nopCommerce
+- DevOps
+- Cloud Infrastructure Management
+- .NET and C# architecture
+- Software delivery leadership
 
 ## Engineering Principles
 
@@ -24,7 +50,31 @@ My core strength is translating business requirements into clean architecture, r
 - Optimize for long-term maintainability, not short-term hacks.
 - Favor measurable business outcomes over unnecessary complexity.
 
-## Areas of Interest
+## Certifications
+
+- ASP.NET Core: Security
+- ASP.NET Core: Middleware
+- ASP.NET Core: Test-Driven Development
+- Learning Entity Framework Core
+- Microsoft Certified Professional (MCP 2.0)
+
+## Honors and Awards
+
+- BASIS Outsourcing Award 2014
+- Top 10% successful Odesk freelancers
+- Freelancers Meet 2015 Award
+
+## Languages
+
+- Bangla: Native/Bilingual
+- English: Professional Working
+
+## Education
+
+- Bachelor's degree, Mass Communication/Media Studies, University of Rajshahi
+- Postgraduate Diploma, Enterprise System Analysis and Design (.NET), IsDB-BISEW IT Scholarship Program
+
+## Areas of Focus
 
 - High-performance APIs and backend optimization
 - Distributed systems and event-driven design
