@@ -3,92 +3,97 @@ layout: default
 title: About
 ---
 
-# About Yaseer Arafat
+<section class="hero">
+	<div>
+		<div class="eyebrow">About Me</div>
+		<h1>Architecting software that <span class="accent">scales cleanly</span> and ships reliably.</h1>
+		<p class="lede">I work across backend systems, cloud infrastructure, engineering leadership, and e-commerce delivery. My focus is pragmatic architecture that improves both technical quality and business throughput.</p>
+	</div>
 
-I am a backend and cloud-focused software engineer and technology leader with 14+ years of experience across enterprise platforms, e-commerce systems, and cloud-native products.
+	<div class="hero-aside">
+		<div class="panel">
+			<div class="section-tag">Base</div>
+			<h3>Mirpur, Dhaka, Bangladesh</h3>
+			<p class="muted">Available for consulting, architecture reviews, product engineering leadership, and modernization initiatives.</p>
+		</div>
+		<div class="panel">
+			<div class="section-tag">Languages</div>
+			<p>Bangla: Native / Bilingual<br>English: Professional Working</p>
+		</div>
+	</div>
+</section>
 
-I specialize in turning complex business requirements into scalable architecture, maintainable engineering systems, and reliable software delivery.
+<section class="section-card">
+	<div class="section-tag">Career Timeline</div>
+	<div class="timeline">
+		<article class="timeline-item">
+			<div class="timeline-role">Assistant General Manager (Technical) · PRAN-RFL Group / Othoba.com</div>
+			<div class="timeline-meta">2025 - Present</div>
+			<p>Leading architecture, scalability, and high-impact delivery for a major online marketplace.</p>
+		</article>
+		<article class="timeline-item">
+			<div class="timeline-role">Head of Technology · Metal Studio Private Limited</div>
+			<div class="timeline-meta">2023 - 2025</div>
+			<p>Owned technical direction, code quality improvement, testing strategy, and project delivery execution.</p>
+		</article>
+		<article class="timeline-item">
+			<div class="timeline-role">Engineering Manager / Senior Dotnet Developer · Brainify Bangladesh</div>
+			<div class="timeline-meta">2022 - 2023</div>
+			<p>Managed budgets, engineering standards, mentoring, and delivery quality across the team.</p>
+		</article>
+		<article class="timeline-item">
+			<div class="timeline-role">Application Developer · Multinational Financial Corp</div>
+			<div class="timeline-meta">2020 - 2022</div>
+			<p>Built software in .NET, C#, JavaScript, and Python for business-critical financial workflows.</p>
+		</article>
+		<article class="timeline-item">
+			<div class="timeline-role">Senior Software Development Engineer · Unik Experience Inc.</div>
+			<div class="timeline-meta">2015 - 2018</div>
+			<p>Drove feature design, UX improvement, performance enhancement, and platform evolution.</p>
+		</article>
+	</div>
+</section>
 
-## Current Position
+<section class="section-card">
+	<div class="section-tag">Strengths</div>
+	<div class="grid three">
+		<div class="card">
+			<h3>Commerce Platforms</h3>
+			<p>Strong experience in marketplace workflows, vendor onboarding, checkout optimization, order management, and logistics integration.</p>
+		</div>
+		<div class="card">
+			<h3>Architecture</h3>
+			<p>Clean architecture, CQRS, plugin-based extensibility, scalable APIs, and long-term maintainability.</p>
+		</div>
+		<div class="card">
+			<h3>Operations</h3>
+			<p>Cloud infrastructure, DevOps execution, observability, release reliability, and cross-functional delivery management.</p>
+		</div>
+	</div>
+</section>
 
-**Assistant General Manager (Technical), PRAN-RFL Group (Othoba.com)**
-
-- Leading platform architecture and technical strategy for Othoba.com.
-- Driving performance and scalability improvements in ASP.NET, SQL Server, and nopCommerce ecosystems.
-- Coordinating development, DevOps, and QA teams for dependable release operations.
-
-## Career Highlights
-
-- **Head of Technology, Metal Studio Private Limited (2023-2025)**
-- **Engineering Manager, Brainify Bangladesh (2023)**
-- **Application Developer, Multinational Financial Corp, New York (2020-2022)**
-- **Senior Software Development Engineer, Unik Experience Inc., Canada (2015-2018)**
-- **Chief Technology Officer, CasaVue, Vietnam (2016)**
-- **Lead Software Development Engineer, MidasZ Technologies, USA (2013-2015)**
-- **Senior Dotnet Developer, Satori Tech Solutions, USA (2013)**
-
-## Core Expertise
-
-- Backend engineering with C#, ASP.NET Core, .NET, Node.js, and SQL-based systems.
-- Cloud-native development and deployment workflows on Azure and AWS.
-- Event-driven architecture with messaging, CQRS patterns, and service integration.
-- E-commerce architecture with vendor, order, checkout, and logistics integration domains.
-- AI integration for product features and developer workflows.
-
-## Top Skills
-
-- nopCommerce
-- DevOps
-- Cloud Infrastructure Management
-- .NET and C# architecture
-- Software delivery leadership
-
-## Engineering Principles
-
-- Build for reliability and clarity first.
-- Keep systems observable and operationally simple.
-- Optimize for long-term maintainability, not short-term hacks.
-- Favor measurable business outcomes over unnecessary complexity.
-
-## Certifications
-
-- ASP.NET Core: Security
-- ASP.NET Core: Middleware
-- ASP.NET Core: Test-Driven Development
-- Learning Entity Framework Core
-- Microsoft Certified Professional (MCP 2.0)
-
-## Honors and Awards
-
-- BASIS Outsourcing Award 2014
-- Top 10% successful Odesk freelancers
-- Freelancers Meet 2015 Award
-
-## Languages
-
-- Bangla: Native/Bilingual
-- English: Professional Working
-
-## Education
-
-- Bachelor's degree, Mass Communication/Media Studies, University of Rajshahi
-- Postgraduate Diploma, Enterprise System Analysis and Design (.NET), IsDB-BISEW IT Scholarship Program
-
-## Areas of Focus
-
-- High-performance APIs and backend optimization
-- Distributed systems and event-driven design
-- AI-assisted developer workflows and automation
-- Cloud architecture and platform engineering
-
-## Writing
-
-- [Mastering CQRS with MediatR in .NET](/CQRS-MeditR-Demo/)
-- [Mastering CancellationToken in C#](/Mastering_CancellationToken/)
-
-## Connect
-
-- [LinkedIn](https://www.linkedin.com/in/yaseerarafat/)
-- [GitHub](https://github.com/emonarafat)
-- [Upwork](https://www.upwork.com/freelancers/~019243c0d9b337e319)
-- [Portfolio Home](https://github.yaseerarafat.com)
+<section class="section-card">
+	<div class="section-tag">Credentials</div>
+	<div class="grid two">
+		<div class="card">
+			<h3>Certifications & Awards</h3>
+			<ul>
+				<li>Microsoft Certified Professional (MCP 2.0)</li>
+				<li>ASP.NET Core: Security</li>
+				<li>ASP.NET Core: Middleware</li>
+				<li>ASP.NET Core: Test-Driven Development</li>
+				<li>BASIS Outsourcing Award 2014</li>
+				<li>Top 10% successful Odesk freelancers</li>
+			</ul>
+		</div>
+		<div class="card">
+			<h3>Education</h3>
+			<ul>
+				<li>Bachelor's degree, Mass Communication / Media Studies, University of Rajshahi</li>
+				<li>Postgraduate Diploma, Enterprise System Analysis and Design (.NET), IsDB-BISEW IT Scholarship Program</li>
+			</ul>
+			<h3>Writing</h3>
+			<p><a class="inline-link" href="{{ '/CQRS-MeditR-Demo/' | relative_url }}">Mastering CQRS with MediatR</a><br><a class="inline-link" href="{{ '/Mastering_CancellationToken/' | relative_url }}">Mastering CancellationToken in C#</a></p>
+		</div>
+	</div>
+</section>

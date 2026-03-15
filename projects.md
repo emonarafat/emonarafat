@@ -3,43 +3,71 @@ layout: default
 title: Projects
 ---
 
-# Selected Projects
+<section class="hero">
+	<div>
+		<div class="eyebrow">Projects</div>
+		<h1>Selected work across <span class="accent">architecture</span>, commerce, and AI.</h1>
+		<p class="lede">These repositories reflect how I approach backend systems, modular design, messaging, developer tooling, and practical AI integration.</p>
+	</div>
+	<div class="hero-aside">
+		<div class="panel">
+			<div class="section-tag">Focus Areas</div>
+			<div class="tag-list">
+				<span class="tag">.NET</span>
+				<span class="tag">Distributed Systems</span>
+				<span class="tag">Messaging</span>
+				<span class="tag">AI Workflows</span>
+			</div>
+		</div>
+	</div>
+</section>
 
-A curated set of public projects that reflect my backend, architecture, and product engineering work.
+<section class="section-card">
+	<div class="section-tag">Featured Repositories</div>
+	<div class="project-grid">
+		<article class="project-card">
+			<h3>ContextAwareEFCore</h3>
+			<p>Behavior-altering Entity Framework Core DbContext patterns for flexible data access strategies.</p>
+			<a class="inline-link" href="https://github.com/emonarafat/ContextAwareEFCore" target="_blank" rel="noreferrer">View Repository</a>
+		</article>
+		<article class="project-card">
+			<h3>MassTransitOutboxDemo</h3>
+			<p>A practical Outbox pattern implementation for reliable event-driven .NET systems.</p>
+			<a class="inline-link" href="https://github.com/emonarafat/MassTransitOutboxDemo" target="_blank" rel="noreferrer">View Repository</a>
+		</article>
+		<article class="project-card">
+			<h3>Dapper.Sharding</h3>
+			<p>Sharding helpers and data access patterns for Dapper-based applications.</p>
+			<a class="inline-link" href="https://github.com/emonarafat/Dapper.Sharding" target="_blank" rel="noreferrer">View Repository</a>
+		</article>
+		<article class="project-card">
+			<h3>Apical.SendGridMailer</h3>
+			<p>A package-focused implementation for transactional email delivery using SendGrid.</p>
+			<a class="inline-link" href="https://github.com/emonarafat/Apical.SendGridMailer" target="_blank" rel="noreferrer">View Repository</a>
+		</article>
+		<article class="project-card">
+			<h3>GraphEmailClient</h3>
+			<p>Microsoft Graph-based email client implementation for modern communication workflows.</p>
+			<a class="inline-link" href="https://github.com/emonarafat/GraphEmailClient" target="_blank" rel="noreferrer">View Repository</a>
+		</article>
+		<article class="project-card">
+			<h3>lightningfast-whisperApi</h3>
+			<p>Speech-to-text and AI API experimentation focused on practical service delivery.</p>
+			<a class="inline-link" href="https://github.com/emonarafat/lightningfast-whisperApi" target="_blank" rel="noreferrer">View Repository</a>
+		</article>
+	</div>
+</section>
 
-## Architecture and Backend
-
-### [ContextAwareEFCore](https://github.com/emonarafat/ContextAwareEFCore)
-Behavior-altering Entity Framework Core DbContext patterns for flexible data behavior.
-
-### [MassTransitOutboxDemo](https://github.com/emonarafat/MassTransitOutboxDemo)
-A practical Outbox pattern implementation for reliable, event-driven .NET systems.
-
-### [Dapper.Sharding](https://github.com/emonarafat/Dapper.Sharding)
-Data access sharding helpers for Dapper-based applications.
-
-### [Apical.SendGridMailer](https://github.com/emonarafat/Apical.SendGridMailer)
-A package-focused integration for sending transactional mail through SendGrid.
-
-### [GraphEmailClient](https://github.com/emonarafat/GraphEmailClient)
-Microsoft Graph-based email client implementation.
-
-## AI and Python
-
-### [lightningfast-whisperApi](https://github.com/emonarafat/lightningfast-whisperApi)
-Speech/AI backend API in Python.
-
-### [AI-ASSISTANT](https://github.com/emonarafat/AI-ASSISTANT)
-Python-based AI assistant project.
-
-## Earlier Open Source Work
-
-### [ncovGlobalInfo](https://github.com/emonarafat/ncovGlobalInfo)
-COVID-19 information dashboard and API-focused project.
-
-### [mui-color-picker](https://github.com/emonarafat/mui-color-picker)
-Material UI v5 color input component.
-
-## More Repositories
-
-Explore all repositories on [GitHub](https://github.com/emonarafat?tab=repositories).
+<section class="section-card">
+	<div class="section-tag">More Work</div>
+	<div class="grid two">
+		<div class="card">
+			<h3>AI and Python</h3>
+			<p><a class="inline-link" href="https://github.com/emonarafat/AI-ASSISTANT" target="_blank" rel="noreferrer">AI-ASSISTANT</a> explores Python-based AI assistant workflows and experimentation.</p>
+		</div>
+		<div class="card">
+			<h3>Earlier Open Source</h3>
+			<p><a class="inline-link" href="https://github.com/emonarafat/ncovGlobalInfo" target="_blank" rel="noreferrer">ncovGlobalInfo</a> and <a class="inline-link" href="https://github.com/emonarafat/mui-color-picker" target="_blank" rel="noreferrer">mui-color-picker</a> show broader problem-solving across product types and stacks.</p>
+		</div>
+	</div>
+</section>

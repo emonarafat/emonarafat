@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% seo %}
+  </head>
+  <body>
+    <div class="site-bg"></div>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <span class="brand-mark">YA</span>
+          <span class="brand-copy">
+            <strong>Yaseer Arafat</strong>
+            <span>.NET Architect</span>
+          </span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/about/' | relative_url }}">About</a>
+          <a href="{{ '/projects/' | relative_url }}">Projects</a>
+          <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        </nav>
+
+        <div class="topbar-actions">
+          <a class="button button-ghost" href="https://github.com/{{ site.social.github }}" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="button button-primary" href="https://www.linkedin.com/in/{{ site.social.linkedin }}/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </header>
+
+      <main class="page-frame">
+        {{ content }}
+      </main>
+
+      <footer class="site-footer">
+        <div>
+          <p class="footer-title">Yaseer Arafat</p>
+          <p class="footer-copy">Backend, cloud, architecture, and scalable commerce systems.</p>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:{{ site.author.email }}">Email</a>
+          <a href="https://github.com/{{ site.social.github }}" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/{{ site.social.linkedin }}/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://yaseerarafat.com/" target="_blank" rel="noreferrer">Website</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
