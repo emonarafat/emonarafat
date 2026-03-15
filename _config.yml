@@ -1,40 +1,39 @@
 title: Yaseer Arafat
-description: A portfolio and blog by emonarafat
+description: Portfolio and engineering notes by Yaseer Arafat.
 theme: jekyll-theme-primer
 
-# Author details
+# GitHub Pages URL configuration
+url: "https://github.yaseerarafat.com"
+baseurl: ""
+
+# Pretty links for posts, used by navigation and homepage links
+permalink: /:title/
+
 author:
   name: Yaseer Arafat
   email: yaseer.arafat@live.com
 
-# Social media
 social:
   github: emonarafat
-  twitter: emontwitts
   linkedin: yaseerarafat
 
-# Markdown processing
 markdown: kramdown
 
-# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Exclude from the site build
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: Yaseer Arafat
+
 exclude:
   - node_modules
   - README.md
   - Gemfile
   - Gemfile.lock
-
-# Navigation (may not be supported in jekyll-theme-primer unless customized)
-# Use _includes/header.html or sidebar in custom layout if needed
-nav:
-  - Home: /
-  - Mastering CQRS with MediatR: /CQRS-MeditR-Demo
-  - Mastering CancellationToken: /Mastering_CancellationToken
-
-# Optional: Google Analytics (uncomment and set your ID)
-# google_analytics: "UA-XXXXXX-X"

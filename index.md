@@ -3,28 +3,51 @@ layout: default
 title: Home
 ---
 
-# 👋 Welcome to Yaseer Arafat's Portfolio
+# Welcome
 
-## 🌟 Featured Posts
+I am **Yaseer Arafat**, a backend-focused software engineer building APIs, distributed systems, and cloud-native applications.
 
+## Connect
+
+- [GitHub Profile](https://github.com/emonarafat)
+- [LinkedIn](https://www.linkedin.com/in/yaseerarafat)
+- [Upwork](https://www.upwork.com/freelancers/~019243c0d9b337e319)
+
+## Featured Posts
+
+{% assign featured = site.posts | where: "featured", true %}
+{% if featured.size > 0 %}
 <ul>
-  {% assign featured = site.posts | where: "featured", true %}
-  {% if featured.size > 0 %}
-    {% for post in featured %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <br><small>{{ post.date | date: "%B %d, %Y" }}</small>
-      </li>
-    {% endfor %}
-  {% else %}
-    <li>No featured posts yet.</li>
-  {% endif %}
-</ul>
-
-## 📚 Recent Posts
-
-<ul>
-  {% for post in site.posts limit: 5 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% for post in featured %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <br>
+      <small>{{ post.date | date: "%B %d, %Y" }}</small>
+    </li>
   {% endfor %}
 </ul>
+{% else %}
+No featured posts yet.
+{% endif %}
+
+## Recent Posts
+
+{% if site.posts.size > 0 %}
+<ul>
+  {% for post in site.posts limit: 8 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <br>
+      <small>{{ post.date | date: "%B %d, %Y" }}</small>
+    </li>
+  {% endfor %}
+</ul>
+{% else %}
+No posts published yet.
+{% endif %}
+
+## Featured Repositories
+
+- [ContextAwareEFCore](https://github.com/emonarafat/ContextAwareEFCore)
+- [MassTransitOutboxDemo](https://github.com/emonarafat/MassTransitOutboxDemo)
+- [Dapper.Sharding](https://github.com/emonarafat/Dapper.Sharding)

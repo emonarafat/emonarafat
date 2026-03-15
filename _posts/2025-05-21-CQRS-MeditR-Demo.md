@@ -131,7 +131,7 @@ Use **Pipeline Behaviors** in MediatR for cross-cutting concerns:
 
 **CQRS + MediatR** helps you write cleaner, decoupled, testable code. It scales well with complex domains and high-load systems.
 
-**Whatâ€™s your favorite CQRS pattern tweak or MediatR trick?** Share below.
+**What's your favorite CQRS pattern tweak or MediatR trick?** Share below.
 
 ---
 
