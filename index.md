@@ -9,7 +9,7 @@ title: Home
   <div>
     <div class="eyebrow">Portfolio / Resume</div>
     <h1>Building <span class="accent">scalable commerce</span>, cloud systems, and intelligent software.</h1>
-    <p class="lede">I am Yaseer Arafat, AGM (Technical) at Othoba.com, .NET architect, and engineering leader with 14+ years of experience delivering backend platforms, cloud-native services, and AI-assisted product workflows.</p>
+    <p class="lede">I am Yaseer Arafat, AGM (Technical) at Othoba.com, .NET architect, and engineering leader with 18+ years of experience delivering backend platforms, cloud-native services, and AI-assisted product workflows.</p>
 
     <div class="hero-actions">
       <a class="button button-primary" href="{{ '/projects/' | relative_url }}">View Projects</a>
@@ -38,7 +38,7 @@ title: Home
 
     <div class="stat-grid">
       <div class="metric">
-        <span class="metric-value">14+</span>
+        <span class="metric-value">18+</span>
         <span class="metric-label">Years Experience</span>
       </div>
       <div class="metric">
