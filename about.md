@@ -25,6 +25,8 @@ title: About
 
 <section class="section-card">
 	<div class="section-tag">Career Timeline</div>
+	<h2>Leadership and engineering journey across product, platform, and scale</h2>
+	<p class="muted">A live timeline powered by local JSON so updates stay automatic and versioned with the site.</p>
 	<div class="experience-feed" data-feed-url="{{ site.feeds.experiences | relative_url }}" data-limit="12">
 		<div class="feed-status">Loading experience history...</div>
 	</div>

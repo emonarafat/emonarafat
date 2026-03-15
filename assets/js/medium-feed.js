@@ -104,8 +104,19 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   const buildExperienceCard = (item) => {
+    const badgeSeed = item.company || item.title || "Experience";
+    const badge = badgeSeed
+      .split(/\s+/)
+      .filter(Boolean)
+      .slice(0, 2)
+      .map((part) => part[0]?.toUpperCase() || "")
+      .join("") || "EX";
+
     const responsibilities = Array.isArray(item.responsibilities)
-      ? item.responsibilities.slice(0, 5).map((entry) => `<li>${escapeHtml(entry)}</li>`).join("")
+      ? item.responsibilities
+          .slice(0, 4)
+          .map((entry) => `<li>${escapeHtml(entry)}</li>`)
+          .join("")
       : "";
 
     const company = item.website
@@ -115,16 +126,19 @@ document.addEventListener("DOMContentLoaded", () => {
     return `
       <article class="timeline-item experience-card">
         <div class="experience-head">
-          <div>
-            <div class="timeline-role">${escapeHtml(item.title || "Experience")}</div>
-            <div class="timeline-meta">${company}</div>
+          <div class="experience-role-wrap">
+            <span class="experience-badge" aria-hidden="true">${badge}</span>
+            <div>
+              <div class="timeline-role">${escapeHtml(item.title || "Experience")}</div>
+              <div class="timeline-meta experience-company">${company}</div>
+            </div>
           </div>
           <div class="experience-meta">
-            <span>${escapeHtml(item.period || "")}</span>
+            <span class="experience-period">${escapeHtml(item.period || "")}</span>
             <span>${escapeHtml(item.location || "")}</span>
           </div>
         </div>
-        ${responsibilities ? `<ul class="experience-list">${responsibilities}</ul>` : ""}
+        ${responsibilities ? `<p class="experience-kicker">Impact highlights</p><ul class="experience-list">${responsibilities}</ul>` : ""}
       </article>
     `;
   };

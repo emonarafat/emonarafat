@@ -377,36 +377,59 @@ li,
 
 .timeline {
   position: relative;
+  display: grid;
+  gap: 16px;
+  padding-left: 18px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background: linear-gradient(180deg, rgba(15, 118, 110, 0.35), rgba(201, 108, 45, 0.35));
 }
 
 .timeline-item {
   position: relative;
-  padding-left: 24px;
+  padding-left: 0;
 }
 
 .experience-card {
-  padding-right: 24px;
+  padding: 22px 24px;
+  margin-left: 12px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.85), rgba(255, 250, 243, 0.72));
+  border: 1px solid rgba(23, 32, 51, 0.08);
+  box-shadow: 0 12px 30px rgba(28, 33, 46, 0.08);
 }
 
 .timeline-item::before {
   content: "";
   position: absolute;
-  left: 0;
-  top: 10px;
-  width: 10px;
-  height: 10px;
+  left: -14px;
+  top: 24px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: var(--orange);
-  box-shadow: 0 0 0 6px rgba(201, 108, 45, 0.12);
+  box-shadow: 0 0 0 5px rgba(201, 108, 45, 0.18);
 }
 
 .timeline-role {
+  margin-bottom: 4px;
+  font-size: 1.12rem;
   font-weight: 700;
 }
 
 .timeline-meta,
 .card small {
   color: var(--muted);
+}
+
+.experience-company {
+  font-weight: 600;
 }
 
 .experience-head {
@@ -425,9 +448,66 @@ li,
   text-align: right;
 }
 
+.experience-role-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.experience-badge {
+  display: inline-grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--teal), #155e75);
+  color: #fff;
+  font-family: "Sora", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+}
+
+.experience-period {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: var(--teal-soft);
+  color: var(--teal);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.experience-kicker {
+  margin: 14px 0 8px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
 .experience-list {
-  margin: 14px 0 0;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.experience-list li {
+  position: relative;
   padding-left: 18px;
+}
+
+.experience-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 11px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(15, 118, 110, 0.6);
 }
 
 .experience-list li + li {
@@ -617,8 +697,13 @@ li,
     flex-direction: column;
   }
 
+  .experience-role-wrap {
+    width: 100%;
+  }
+
   .experience-meta {
     text-align: left;
+    align-items: flex-start;
   }
 
   .section-heading-row {
@@ -647,6 +732,10 @@ li,
   .contact-card,
   .timeline-item {
     padding: 20px;
+  }
+
+  .experience-card {
+    margin-left: 8px;
   }
 
   h1 {
