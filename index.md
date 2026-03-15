@@ -112,6 +112,21 @@ title: Home
 </section>
 
 <section class="section-card">
+  <div class="section-tag">Medium Blog</div>
+  <div class="section-heading-row">
+    <div>
+      <h2>Latest articles from Medium</h2>
+      <p class="muted">Fresh writing on architecture, debugging, cloud systems, and engineering leadership.</p>
+    </div>
+    <a class="button button-ghost" href="{{ '/blog/' | relative_url }}">View All Posts</a>
+  </div>
+
+  <div class="medium-feed" data-feed-url="https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@yaseer.arafat" data-limit="4">
+    <div class="feed-status">Loading latest Medium posts...</div>
+  </div>
+</section>
+
+<section class="section-card">
   <div class="section-tag">Next Step</div>
   <div class="grid two">
     <div class="quote-card">

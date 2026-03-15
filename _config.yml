@@ -42,6 +42,7 @@ nav:
   - Home: /
   - About: /about/
   - Projects: /projects/
+  - Blog: /blog/
   - Contact: /contact/
   - CQRS with MediatR: /CQRS-MeditR-Demo/
   - CancellationToken in C#: /Mastering_CancellationToken/

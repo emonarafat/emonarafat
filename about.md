@@ -25,32 +25,8 @@ title: About
 
 <section class="section-card">
 	<div class="section-tag">Career Timeline</div>
-	<div class="timeline">
-		<article class="timeline-item">
-			<div class="timeline-role">Assistant General Manager (Technical) · PRAN-RFL Group / Othoba.com</div>
-			<div class="timeline-meta">2025 - Present</div>
-			<p>Leading architecture, scalability, and high-impact delivery for a major online marketplace.</p>
-		</article>
-		<article class="timeline-item">
-			<div class="timeline-role">Head of Technology · Metal Studio Private Limited</div>
-			<div class="timeline-meta">2023 - 2025</div>
-			<p>Owned technical direction, code quality improvement, testing strategy, and project delivery execution.</p>
-		</article>
-		<article class="timeline-item">
-			<div class="timeline-role">Engineering Manager / Senior Dotnet Developer · Brainify Bangladesh</div>
-			<div class="timeline-meta">2022 - 2023</div>
-			<p>Managed budgets, engineering standards, mentoring, and delivery quality across the team.</p>
-		</article>
-		<article class="timeline-item">
-			<div class="timeline-role">Application Developer · Multinational Financial Corp</div>
-			<div class="timeline-meta">2020 - 2022</div>
-			<p>Built software in .NET, C#, JavaScript, and Python for business-critical financial workflows.</p>
-		</article>
-		<article class="timeline-item">
-			<div class="timeline-role">Senior Software Development Engineer · Unik Experience Inc.</div>
-			<div class="timeline-meta">2015 - 2018</div>
-			<p>Drove feature design, UX improvement, performance enhancement, and platform evolution.</p>
-		</article>
+	<div class="experience-feed" data-feed-url="https://www.yaseerarafat.com/data/experiences.json" data-limit="12">
+		<div class="feed-status">Loading experience history...</div>
 	</div>
 </section>
 

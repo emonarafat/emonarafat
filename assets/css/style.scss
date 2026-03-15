@@ -274,8 +274,10 @@ li,
 .stat-grid,
 .grid,
 .project-grid,
+.blog-grid,
 .service-grid,
 .timeline,
+.experience-feed,
 .list-grid,
 .footer-links {
   display: grid;
@@ -355,9 +357,18 @@ li,
 
 .grid.three,
 .project-grid,
+.blog-grid,
 .service-grid,
 .list-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.section-heading-row {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 18px;
 }
 
 .section-card {
@@ -371,6 +382,10 @@ li,
 .timeline-item {
   position: relative;
   padding-left: 24px;
+}
+
+.experience-card {
+  padding-right: 24px;
 }
 
 .timeline-item::before {
@@ -394,6 +409,31 @@ li,
   color: var(--muted);
 }
 
+.experience-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.experience-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 0.95rem;
+  text-align: right;
+}
+
+.experience-list {
+  margin: 14px 0 0;
+  padding-left: 18px;
+}
+
+.experience-list li + li {
+  margin-top: 8px;
+}
+
 .tag-list {
   display: flex;
   flex-wrap: wrap;
@@ -414,6 +454,64 @@ li,
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 100%;
+}
+
+.blog-card .thumb {
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(15, 118, 110, 0.2), rgba(201, 108, 45, 0.18));
+  overflow: hidden;
+}
+
+.blog-card .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blog-card .blog-meta {
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.blog-card .blog-excerpt {
+  color: var(--muted);
+}
+
+.blog-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.blog-tag {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(23, 32, 51, 0.06);
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.feed-status,
+.feed-error {
+  padding: 18px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px dashed var(--line);
+  color: var(--muted);
+}
+
+.feed-error a {
+  color: var(--teal);
+  font-weight: 700;
 }
 
 .project-card a.inline-link,
@@ -495,6 +593,7 @@ li,
   .grid.two,
   .grid.three,
   .project-grid,
+  .blog-grid,
   .service-grid,
   .list-grid,
   .stat-grid {
@@ -512,6 +611,19 @@ li,
   .topbar-actions,
   .footer-links {
     justify-content: center;
+  }
+
+  .experience-head {
+    flex-direction: column;
+  }
+
+  .experience-meta {
+    text-align: left;
+  }
+
+  .section-heading-row {
+    flex-direction: column;
+    align-items: start;
   }
 
   .hero {
