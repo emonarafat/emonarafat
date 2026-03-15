@@ -7,81 +7,52 @@
     <meta name="description" content="{{ page.description | default: site.description }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     {% seo %}
   </head>
   <body>
-    <div class="site-noise"></div>
-    <div class="layout-shell">
-      <aside class="identity-rail">
-        <a class="rail-brand" href="{{ '/' | relative_url }}">
-          <span class="rail-monogram">YA</span>
-          <span class="rail-brand-copy">
+    <div class="site-bg"></div>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <span class="brand-mark">YA</span>
+          <span class="brand-copy">
             <strong>Yaseer Arafat</strong>
-            <span>AGM (Technical) • .NET Architect</span>
+            <span>.NET Architect</span>
           </span>
         </a>
 
-        <section class="rail-panel rail-panel-intro">
-          <p class="rail-kicker">Portfolio / Resume</p>
-          <h1 class="rail-title">Scalable systems, cleaner architecture, sharper delivery.</h1>
-          <p class="rail-copy">I lead engineering across commerce, cloud platforms, and reliability-focused product systems.</p>
-        </section>
+        <nav class="nav" aria-label="Primary">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/about/' | relative_url }}">About</a>
+          <a href="{{ '/projects/' | relative_url }}">Projects</a>
+          <a href="{{ '/blog/' | relative_url }}">Blog</a>
+          <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        </nav>
 
-        <section class="rail-panel rail-panel-stats">
-          <div class="rail-stat">
-            <strong>14+</strong>
-            <span>Years in software engineering</span>
-          </div>
-          <div class="rail-stat">
-            <strong>Global</strong>
-            <span>Leadership across BD, USA, Canada, Vietnam</span>
-          </div>
-          <div class="rail-stat">
-            <strong>Focus</strong>
-            <span>.NET, commerce, cloud, observability, AI workflows</span>
-          </div>
-        </section>
+        <div class="topbar-actions">
+          <a class="button button-ghost" href="https://github.com/{{ site.social.github }}" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="button button-primary" href="https://www.linkedin.com/in/{{ site.social.linkedin }}/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </header>
 
-        <section class="rail-panel rail-panel-links">
-          <a class="rail-link" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-          <a class="rail-link" href="https://github.com/{{ site.social.github }}" target="_blank" rel="noreferrer">GitHub</a>
-          <a class="rail-link" href="https://www.linkedin.com/in/{{ site.social.linkedin }}/" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a class="rail-link" href="https://yaseerarafat.com/" target="_blank" rel="noreferrer">Website</a>
-        </section>
-      </aside>
+      <main class="page-frame">
+        {{ content }}
+      </main>
 
-      <div class="content-shell">
-        <header class="masthead">
-          <nav class="nav" aria-label="Primary">
-            <a href="{{ '/' | relative_url }}">Home</a>
-            <a href="{{ '/about/' | relative_url }}">About</a>
-            <a href="{{ '/projects/' | relative_url }}">Projects</a>
-            <a href="{{ '/blog/' | relative_url }}">Blog</a>
-            <a href="{{ '/contact/' | relative_url }}">Contact</a>
-          </nav>
-
-          <div class="masthead-actions">
-            <a class="button button-ghost" href="https://github.com/{{ site.social.github }}" target="_blank" rel="noreferrer">GitHub</a>
-            <a class="button button-primary" href="{{ '/contact/' | relative_url }}">Start a Conversation</a>
-          </div>
-        </header>
-
-        <main class="page-frame">
-          {{ content }}
-        </main>
-
-        <footer class="site-footer">
-          <p class="footer-copy">Yaseer Arafat • Backend, cloud, architecture, and scalable commerce systems.</p>
-          <div class="footer-links">
-            <a href="mailto:{{ site.author.email }}">Email</a>
-            <a href="https://github.com/{{ site.social.github }}" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/{{ site.social.linkedin }}/" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a href="https://yaseerarafat.com/" target="_blank" rel="noreferrer">Website</a>
-          </div>
-        </footer>
-      </div>
+      <footer class="site-footer">
+        <div>
+          <p class="footer-title">Yaseer Arafat</p>
+          <p class="footer-copy">Backend, cloud, architecture, and scalable commerce systems.</p>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:{{ site.author.email }}">Email</a>
+          <a href="https://github.com/{{ site.social.github }}" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/{{ site.social.linkedin }}/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://yaseerarafat.com/" target="_blank" rel="noreferrer">Website</a>
+        </div>
+      </footer>
     </div>
     <script src="{{ '/assets/js/medium-feed.js' | relative_url }}"></script>
   </body>
