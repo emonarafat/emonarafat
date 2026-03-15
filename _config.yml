@@ -37,3 +37,11 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+
+nav:
+  - Home: /
+  - About: /about/
+  - Projects: /projects/
+  - Contact: /contact/
+  - CQRS with MediatR: /CQRS-MeditR-Demo/
+  - CancellationToken in C#: /Mastering_CancellationToken/

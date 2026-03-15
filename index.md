@@ -7,6 +7,14 @@ title: Home
 
 I am **Yaseer Arafat**, a backend-focused software engineer building APIs, distributed systems, and cloud-native applications.
 
+I specialize in .NET and backend architecture, with practical delivery across cloud platforms, DevOps workflows, and production-grade systems.
+
+## Profile Sections
+
+- [About](/about/)
+- [Projects](/projects/)
+- [Contact](/contact/)
+
 ## Connect
 
 - [GitHub Profile](https://github.com/emonarafat)
@@ -51,3 +59,8 @@ No posts published yet.
 - [ContextAwareEFCore](https://github.com/emonarafat/ContextAwareEFCore)
 - [MassTransitOutboxDemo](https://github.com/emonarafat/MassTransitOutboxDemo)
 - [Dapper.Sharding](https://github.com/emonarafat/Dapper.Sharding)
+
+## Quick Links
+
+- [All GitHub Repositories](https://github.com/emonarafat?tab=repositories)
+- [Profile README](https://github.com/emonarafat)
