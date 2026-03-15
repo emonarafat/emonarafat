@@ -6,11 +6,12 @@ title: Contact
 <section class="hero">
 	<div>
 		<div class="eyebrow">Contact</div>
-		<h1>Let’s build something <span class="accent">reliable</span> and useful.</h1>
-		<p class="lede">I am open to architecture consulting, engineering leadership, platform modernization, and high-impact backend work. The clearer the problem statement, the faster I can help.</p>
+		<h1>Bring me the systems that need to become <span class="accent">clearer, faster, safer</span>.</h1>
+		<p class="lede">I am open to architecture consulting, technical leadership, platform modernization, and high-impact backend work. The best conversations start with a real operational or product problem.</p>
+		<p class="hero-note">If the current stack works but no one trusts it, if delivery is slowing down, or if architecture is becoming more decorative than useful, that is usually where I can help.</p>
 	</div>
 	<div class="hero-aside">
-		<div class="panel">
+		<div class="spotlight-card">
 			<div class="section-tag">Best For</div>
 			<p>.NET architecture reviews, commerce platform scaling, cloud delivery planning, DevOps improvements, and engineering execution support.</p>
 		</div>
@@ -19,6 +20,7 @@ title: Contact
 
 <section class="section-card">
 	<div class="section-tag">Reach Out</div>
+	<p class="section-caption">Choose the channel that fits the conversation. Direct project context helps a lot.</p>
 	<div class="contact-pills">
 		<div class="contact-card"><strong>Email</strong><a href="mailto:yaseer.arafat@live.com">yaseer.arafat@live.com</a></div>
 		<div class="contact-card"><strong>Mobile / WhatsApp</strong><span>+8801974220999</span></div>
@@ -31,6 +33,7 @@ title: Contact
 
 <section class="section-card">
 	<div class="section-tag">How I Help</div>
+	<p class="section-caption">The work tends to cluster into architecture, reliability, and execution.</p>
 	<div class="service-grid">
 		<div class="card">
 			<h3>Architecture Consulting</h3>
@@ -50,6 +53,6 @@ title: Contact
 <section class="section-card">
 	<div class="section-tag">Collaboration Note</div>
 	<div class="quote-card">
-		<p>Please include your scope, current architecture, business goals, and expected timeline when you reach out. That makes the first discussion much more useful.</p>
+		<p>Please include your scope, current architecture, business goals, and expected timeline when you reach out. That makes the first discussion sharper and much more useful.</p>
 	</div>
 </section>

@@ -7,73 +7,78 @@ title: Home
 
 <section class="hero">
   <div>
-    <div class="eyebrow">Portfolio / Resume</div>
-    <h1>Building <span class="accent">scalable commerce</span>, cloud systems, and intelligent software.</h1>
-    <p class="lede">I am Yaseer Arafat, AGM (Technical) at Othoba.com, .NET architect, and engineering leader with 14+ years of experience delivering backend platforms, cloud-native services, and AI-assisted product workflows.</p>
+    <div class="eyebrow">Engineering Portfolio</div>
+    <h1>Building <span class="accent">resilient platforms</span> for commerce, cloud, and real-world scale.</h1>
+    <p class="lede">I lead technical strategy at Othoba.com and work at the intersection of backend architecture, platform reliability, and business-critical delivery. My systems are designed to survive traffic spikes, team growth, and operational reality.</p>
+
+    <div class="hero-badge">AGM (Technical) • Othoba.com • .NET & Cloud Architect</div>
 
     <div class="hero-actions">
       <a class="button button-primary" href="{{ '/projects/' | relative_url }}">View Projects</a>
-      <a class="button button-ghost" href="{{ '/contact/' | relative_url }}">Work With Me</a>
+      <a class="button button-ghost" href="{{ '/about/' | relative_url }}">Read My Background</a>
     </div>
 
-    <div class="chip-row">
-      <div class="chip">.NET 10 / ASP.NET Core</div>
-      <div class="chip">Azure + AWS</div>
-      <div class="chip">Microservices + CQRS</div>
-      <div class="chip">E-commerce Architecture</div>
+    <div class="number-line">
+      <div class="number-pill"><strong>14+</strong><span class="label-muted">Years in software engineering</span></div>
+      <div class="number-pill"><strong>2009</strong><span class="label-muted">Shipping production systems since</span></div>
+      <div class="number-pill"><strong>4</strong><span class="label-muted">Core pillars: backend, cloud, commerce, delivery</span></div>
     </div>
+
+    <p class="hero-note">I care about architecture that remains understandable six months later, operations that stay calm under pressure, and delivery practices that keep engineering teams fast without becoming fragile.</p>
   </div>
 
   <div class="hero-aside">
-    <div class="panel">
-      <div class="section-tag">Current Role</div>
-      <h3>Assistant General Manager (Technical)</h3>
-      <p class="muted">Leading architecture, performance, and delivery for Othoba.com, one of Bangladesh's largest online marketplaces.</p>
+    <div class="spotlight-card">
+      <div class="section-tag">Current Mandate</div>
+      <h3>National-scale marketplace engineering</h3>
+      <p class="muted">Owning technical strategy, platform stability, and scalability for one of Bangladesh's largest commerce platforms.</p>
       <div class="tag-list">
         <span class="tag">Othoba.com</span>
         <span class="tag">nopCommerce</span>
-        <span class="tag">Cloud + DevOps</span>
+        <span class="tag">Platform Reliability</span>
       </div>
     </div>
 
-    <div class="stat-grid">
-      <div class="metric">
-        <span class="metric-value">14+</span>
-        <span class="metric-label">Years Experience</span>
+    <div class="signal-grid">
+      <div class="mini-card">
+        <span class="metric-value">.NET</span>
+        <span class="metric-label">Architectures, APIs, CQRS, plugin systems</span>
       </div>
-      <div class="metric">
-        <span class="metric-value">3</span>
-        <span class="metric-label">Core Domains</span>
+      <div class="mini-card">
+        <span class="metric-value">Cloud</span>
+        <span class="metric-label">Azure, AWS, containers, observability, delivery</span>
       </div>
-      <div class="metric">
-        <span class="metric-value">Global</span>
-        <span class="metric-label">Team Exposure</span>
+      <div class="mini-card">
+        <span class="metric-value">AI</span>
+        <span class="metric-label">Practical workflows with Whisper, GPT, semantic search</span>
       </div>
     </div>
   </div>
 </section>
 
 <section class="section-card">
-  <div class="section-tag">What I Do</div>
-  <div class="grid three">
-    <div class="card">
+  <div class="section-tag">Capability Map</div>
+  <p class="section-caption">A concise view of how I usually add value in complex engineering environments.</p>
+  <div class="signal-grid">
+    <div class="resume-panel">
       <h3>Backend Systems</h3>
-      <p>Designing reliable APIs, modular backend platforms, and integration-heavy enterprise services with .NET and Node.js.</p>
+      <p>Reliable APIs, modular service layers, authentication, distributed workflows, and performance-aware application design in .NET and Node.js.</p>
     </div>
-    <div class="card">
+    <div class="resume-panel">
       <h3>Cloud Delivery</h3>
-      <p>Shipping containerized and serverless systems on Azure and AWS with CI/CD, monitoring, and operational rigor.</p>
+      <p>Azure and AWS deployments, CI/CD pipelines, observability, environment hardening, cost awareness, and release stability.</p>
     </div>
-    <div class="card">
-      <h3>Engineering Leadership</h3>
-      <p>Guiding teams, architecture direction, and product execution without compromising maintainability or velocity.</p>
+    <div class="resume-panel">
+      <h3>Leadership</h3>
+      <p>Architecture direction, team mentoring, delivery planning, and technical decision-making that aligns with business priorities.</p>
     </div>
   </div>
 </section>
 
 <section class="section-card">
-  <div class="section-tag">Featured Work</div>
-  <div class="project-grid">
+  <div class="section-tag">Selected Work</div>
+  <div class="split-grid">
+    <div class="project-grid">
     <article class="project-card">
       <h3>ContextAwareEFCore</h3>
       <p>Behavior-altering EF Core DbContext patterns for advanced application behavior and data access control.</p>
@@ -89,11 +94,28 @@ title: Home
       <p>Speech and AI backend experimentation focused on practical API delivery with Whisper and automation workflows.</p>
       <a class="inline-link" href="https://github.com/emonarafat/lightningfast-whisperApi" target="_blank" rel="noreferrer">Open Repository</a>
     </article>
+    </div>
+
+    <div class="story-grid">
+      <div class="spotlight-card">
+        <div class="section-tag">Working Style</div>
+        <p>I prefer systems that are measurable, boring in production, and understandable by the next engineer without a guided tour.</p>
+      </div>
+      <div class="spotlight-card">
+        <div class="section-tag">Recent Themes</div>
+        <ul class="bullet-list">
+          <li>Architecture maturity in real product teams</li>
+          <li>Cloud cost discipline and reliability trade-offs</li>
+          <li>Operational learning from production incidents</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
 
 <section class="section-card">
-  <div class="section-tag">Writing</div>
+  <div class="section-tag">Featured Writing</div>
+  <p class="section-caption">Long-form writing focused on practical engineering, not theory-only tutorials.</p>
   {% if featured.size > 0 %}
   <div class="grid two">
     {% for post in featured %}
@@ -127,16 +149,16 @@ title: Home
 </section>
 
 <section class="section-card">
-  <div class="section-tag">Next Step</div>
-  <div class="grid two">
+  <div class="section-tag">Get Oriented</div>
+  <div class="resume-grid">
     <div class="quote-card">
-      <h2>Need backend architecture, cloud modernization, or delivery leadership?</h2>
-      <p class="muted">Explore my background, project work, and contact channels to start a conversation.</p>
+      <h2>If you are evaluating me for architecture, platform modernization, or leadership support, start here.</h2>
+      <p class="muted">The site is organized like a working resume: background, selected projects, live writing, and direct contact channels.</p>
     </div>
-    <div class="contact-pills">
-      <div class="contact-card"><strong>About</strong><a href="{{ '/about/' | relative_url }}">Career, strengths, and credentials</a></div>
-      <div class="contact-card"><strong>Projects</strong><a href="{{ '/projects/' | relative_url }}">Selected engineering work</a></div>
-      <div class="contact-card"><strong>Contact</strong><a href="{{ '/contact/' | relative_url }}">Email, WhatsApp, LinkedIn, Upwork</a></div>
+    <div class="link-stack">
+      <a class="link-tile" href="{{ '/about/' | relative_url }}"><span><strong>About</strong>Career history, credentials, strengths</span><span>→</span></a>
+      <a class="link-tile" href="{{ '/projects/' | relative_url }}"><span><strong>Projects</strong>Architecture and product work</span><span>→</span></a>
+      <a class="link-tile" href="{{ '/contact/' | relative_url }}"><span><strong>Contact</strong>Email, WhatsApp, LinkedIn, Upwork</span><span>→</span></a>
     </div>
   </div>
 </section>
