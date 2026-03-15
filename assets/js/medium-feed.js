@@ -129,6 +129,30 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
   };
 
+  const getExperienceItems = (payload) => {
+    if (Array.isArray(payload)) {
+      return payload;
+    }
+
+    if (Array.isArray(payload?.items)) {
+      return payload.items;
+    }
+
+    if (Array.isArray(payload?.data)) {
+      return payload.data;
+    }
+
+    if (Array.isArray(payload?.experiences)) {
+      return payload.experiences;
+    }
+
+    if (Array.isArray(payload?.data?.experiences)) {
+      return payload.data.experiences;
+    }
+
+    return [];
+  };
+
   experienceContainers.forEach(async (container) => {
     const feedUrl = container.getAttribute("data-feed-url");
     const limit = Number(container.getAttribute("data-limit") || "12");
@@ -141,7 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       const payload = await response.json();
-      const items = Array.isArray(payload) ? payload.slice(0, limit) : [];
+      const items = getExperienceItems(payload).slice(0, limit);
 
       if (!items.length) {
         container.innerHTML = '<div class="feed-status">No experience entries found.</div>';

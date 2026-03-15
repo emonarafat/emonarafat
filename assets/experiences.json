@@ -1,0 +1,159 @@
+[
+  {
+    "title": "Assistant General Manager (Tech), Marketing & E-Commerce",
+    "period": "Sep 2025 – Present",
+    "company": "PRAN-RFL Group",
+    "website": "https://othoba.com/",
+    "location": "On Site, Badda, Dhaka, BD",
+    "icon": "fas fa-building",
+    "responsibilities": [
+      "Own end-to-end technical strategy, platform stability, and scalability for Othoba.com, a national-scale e-commerce marketplace",
+      "Provide final technical authority on architecture, security posture, and platform evolution aligned with business growth",
+      "Lead engineering, DevOps, and operations teams to deliver resilient, high-availability commerce systems",
+      "Translate marketing, logistics, and growth objectives into scalable system design, automation, and AI-assisted personalization initiatives",
+      "Drive platform modernization decisions to support peak traffic, campaign surges, and operational efficiency"
+    ]
+  },
+  {
+    "title": "Head of Technology",
+    "period": "Dec 2023 – Sep 2025",
+    "company": "Metal Studio Pvt. Ltd.",
+    "website": "https://metalstudio.com.bd",
+    "location": "Hybrid, Mohakhali, Dhaka, BD",
+    "icon": "fas fa-network-wired",
+    "responsibilities": [
+      "Defined and executed the company-wide technical vision, transitioning the platform toward modular, plugin-ready architecture",
+      "Led modernization initiatives on .NET 8+, reducing legacy complexity and improving system maintainability",
+      "Introduced CI/CD pipelines and observability standards using structured logging and distributed tracing",
+      "Established architecture governance, release discipline, and reliability standards across engineering teams",
+      "Acted as principal decision-maker for technology trade-offs, platform stability, and long-term scalability"
+    ]
+  },
+  {
+    "title": "Engineering Manager",
+    "period": "Dec 2022 – Jun 2023",
+    "company": "Brainify Bangladesh",
+    "website": "https://www.brainifybd.com",
+    "location": "Mirpur, Dhaka, BD",
+    "icon": "fas fa-people-arrows",
+    "responsibilities": [
+      "Rebuilt delivery execution around Agile–Kanban with measurable quality and throughput metrics",
+      "Aligned engineering execution directly with product milestones to reduce delivery friction",
+      "Mentored engineers on scalable backend design, testing strategy, and cloud readiness",
+      "Introduced structured incident reviews and test-driven practices to reduce post-release defects",
+      "Improved team predictability and accountability through clearer ownership and review processes"
+    ]
+  },
+  {
+    "title": "Application Developer (SDE II) | .NET, C#, JavaScript, Python",
+    "period": "Sep 2020 – Nov 2022",
+    "company": "Multinational Financial Corporation (Contract)",
+    "website": "",
+    "location": "Remote, New York, USA",
+    "icon": "fas fa-shield-alt",
+    "responsibilities": [
+      "Designed and delivered enterprise-grade .NET Core microservices for regulated financial workflows",
+      "Led architectural discussions across product, security, and operations for mission-critical systems",
+      "Migrated legacy WCF and classic .NET services to RESTful APIs with modern authentication mechanisms",
+      "Improved system observability and fault isolation through structured diagnostics and async-safe patterns",
+      "Supported distributed teams with guidance on reliability, performance, and production readiness"
+    ]
+  },
+  {
+    "title": "Senior Software Engineer",
+    "period": "Jul 2019 – Feb 2020",
+    "company": "3S Software Solution Service",
+    "website": "https://3ssoftltd.com",
+    "location": "Mohammadpur, Dhaka, BD",
+    "icon": "fas fa-layer-group",
+    "responsibilities": [
+      "Built and optimized full-stack features using ASP.NET MVC and Angular",
+      "Led backend design reviews focusing on data modeling, validation, and middleware patterns",
+      "Improved legacy codebases through systematic refactoring and static analysis adoption",
+      "Contributed to architectural decisions affecting performance and long-term maintainability"
+    ]
+  },
+  {
+    "title": "Senior Software Engineer",
+    "period": "Nov 2016 – Oct 2018",
+    "company": "Unik Experience Inc.",
+    "website": "",
+    "location": "Remote, Canada",
+    "icon": "fas fa-cloud",
+    "responsibilities": [
+      "Delivered scalable B2B platform capabilities using .NET Core and Azure App Services",
+      "Coordinated cross-functional delivery between frontend, backend, and external stakeholders",
+      "Improved deployment reliability through DevOps pipeline restructuring and environment isolation",
+      "Contributed to architectural decisions impacting scalability and release cadence"
+    ]
+  },
+  {
+    "title": "Chief Technology Officer",
+    "period": "Jan 2016 – Nov 2016",
+    "company": "CasaVue Inc.",
+    "website": "",
+    "location": "Hybrid, Ho Chi Minh City, Vietnam",
+    "icon": "fas fa-diagram-project",
+    "responsibilities": [
+      "Defined the company’s technology roadmap and architectural direction",
+      "Led the transition from monolithic systems to cloud-native, service-oriented architecture",
+      "Established DevSecOps practices with automated deployments and infrastructure management",
+      "Introduced observability, disaster recovery, and performance monitoring as core platform concerns",
+      "Coached engineering leadership on architectural governance and delivery discipline"
+    ]
+  },
+  {
+    "title": "Lead Software Development Engineer / Senior .NET Architect",
+    "period": "Aug 2013 – Jan 2015",
+    "company": "MidasZ Technologies LLC & Satori Tech Solutions Inc.",
+    "website": "",
+    "location": "Remote, USA",
+    "icon": "fas fa-code-branch",
+    "responsibilities": [
+      "Led distributed engineering teams delivering enterprise platforms using .NET and SQL Server",
+      "Designed modular service layers and reusable components to improve system longevity",
+      "Introduced early CI/CD automation using TFS and PowerShell scripting",
+      "Bridged business requirements with technical execution across multiple stakeholders"
+    ]
+  },
+  {
+    "title": "Senior Software Engineer",
+    "period": "Aug 2012 – Feb 2013",
+    "company": "Wooskie Inc.",
+    "website": "",
+    "location": "Dhaka, BD",
+    "icon": "fas fa-server",
+    "responsibilities": [
+      "Provisioned Azure infrastructure and deployment automation for scalable applications",
+      "Developed ASP.NET MVC features with focus on performance and diagnostics",
+      "Improved release confidence through better testing and deployment practices"
+    ]
+  },
+  {
+    "title": "Senior Software Engineer",
+    "period": "Sep 2010 – Feb 2012",
+    "company": "Subra Systems Limited",
+    "website": "https://www.subrasystems.com.bd",
+    "location": "Dhaka, BD",
+    "icon": "fas fa-project-diagram",
+    "responsibilities": [
+      "Managed delivery of large-scale .NET and database-driven projects",
+      "Acted as both technical lead and client-facing project coordinator",
+      "Oversaw system rollouts, migrations, and infrastructure upgrades",
+      "Balanced scope, delivery timelines, and technical quality"
+    ]
+  },
+  {
+    "title": "Software Engineer",
+    "period": "Mar 2009 – Aug 2010",
+    "company": "The Technophilic Limited",
+    "website": "",
+    "location": "Dhaka, BD",
+    "icon": "fas fa-code",
+    "responsibilities": [
+      "Developed secure ASP.NET applications with SSO and encrypted integrations",
+      "Refactored legacy Classic ASP systems into ASP.NET for improved maintainability",
+      "Built reporting and data services using SSRS and SQL Server"
+    ]
+  }
+]

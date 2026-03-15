@@ -17,6 +17,9 @@ social:
   github: emonarafat
   linkedin: yaseerarafat
 
+feeds:
+  experiences: "/assets/experiences.json"
+
 markdown: kramdown
 
 plugins:

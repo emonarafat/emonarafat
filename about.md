@@ -25,7 +25,7 @@ title: About
 
 <section class="section-card">
 	<div class="section-tag">Career Timeline</div>
-	<div class="experience-feed" data-feed-url="https://www.yaseerarafat.com/data/experiences.json" data-limit="12">
+	<div class="experience-feed" data-feed-url="{{ site.feeds.experiences | relative_url }}" data-limit="12">
 		<div class="feed-status">Loading experience history...</div>
 	</div>
 </section>
