@@ -17,6 +17,10 @@ social:
   github: emonarafat
   linkedin: yaseerarafat
 
+branding:
+  profile_image: "/assets/light-profile.webp"
+  favicon: "/assets/light-profile.webp"
+
 feeds:
   experiences: "/assets/experiences.json"
 
