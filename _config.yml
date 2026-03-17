@@ -3,7 +3,7 @@ description: Portfolio and engineering notes by Yaseer Arafat.
 theme: jekyll-theme-primer
 
 # GitHub Pages URL configuration
-url: "https://github.yaseerarafat.com"
+url: "https://me.yaseerarafat.com"
 baseurl: ""
 
 # Pretty links for posts, used by navigation and homepage links
