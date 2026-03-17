@@ -187,8 +187,8 @@ I focus on converting complex business requirements into maintainable architectu
 
 ## Writing
 
-- [Mastering CQRS with MediatR in .NET](https://github.yaseerarafat.com/CQRS-MeditR-Demo/)
-- [Mastering CancellationToken in C#](https://github.yaseerarafat.com/Mastering_CancellationToken/)
+- [Mastering CQRS with MediatR in .NET](https://me.yaseerarafat.com/CQRS-MeditR-Demo/)
+- [Mastering CancellationToken in C#](https://me.yaseerarafat.com/Mastering_CancellationToken/)
 
 ## Contact
 
@@ -199,7 +199,7 @@ I focus on converting complex business requirements into maintainable architectu
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-yaseerarafat-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yaseerarafat/)
 [![Upwork](https://img.shields.io/badge/Upwork-Profile-6FDA44?style=flat-square&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019243c0d9b337e319)
-[![Portfolio](https://img.shields.io/badge/Portfolio-github.yaseerarafat.com-111111?style=flat-square&logo=githubpages&logoColor=white)](https://github.yaseerarafat.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-me.yaseerarafat.com-111111?style=flat-square&logo=githubpages&logoColor=white)](https://me.yaseerarafat.com)
 
 ## GitHub Stats
 
